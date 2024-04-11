@@ -1,0 +1,422 @@
+
+body {
+    background-color: rgb(249, 249, 255) !important;
+}
+
+.logo {
+
+    width: 10rem;
+}
+
+.nvbr {
+    font-family: 'Nunito', sans-serif;
+
+}
+.navbar{
+    box-shadow: none;
+}
+/*.navbar{
+    height: 6rem;
+}*/
+/*a{ color: blue !important}*/
+a:hover {
+    color: #8490ff !important;
+}
+
+.para {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #265073;
+}
+
+.gsrtc-title {
+    color: #001B79;
+}
+
+.About {
+    height: 23rem;
+}
+
+.pf {
+    font-size: 1.3rem;
+}
+
+.ps {
+    font-size: 1.5rem;
+}
+
+li {
+    padding: 1rem !important;
+
+}
+
+.src-br {
+
+    height: 2.2rem;
+    width: 10rem;
+    position: relative;
+     left: 10rem; 
+    /* right: 1rem; */
+
+    /* border: 2px solid black!important; */
+    border-radius: 0.3rem;
+
+
+}
+
+
+.i-1 {
+    height: 2rem;
+    outline: none !important;
+}
+
+.i-2 {
+    position: absolute;
+    background: black !important;
+
+    height: 2rem;
+    width: 2rem;
+    right: 0;
+
+}
+
+.i-2 i {
+    color: rgb(249, 249, 255) !important;
+    position: absolute;
+    right: 0.4rem;
+    bottom: 0.4rem;
+}
+
+.category li {
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card img {
+
+    height: 10rem;
+    width: 15rem;
+    object-fit: contain;
+    padding: 0.5rem;
+
+    /* border: 0.2rem solid black; */
+}
+H4{
+    color: red;
+}
+.card {
+    background: rgb(249, 249, 255) !important;
+    height: 25rem;
+    border-radius: 0!important;
+}
+
+.category li:hover {
+    color: #265073;
+    cursor: pointer;
+}
+
+.card p {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.card h5 {
+    font-family: 'Outfit', sans-serif;
+}
+
+.card p {
+    font-size: 0.8rem;
+}
+
+.card a {
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.registration-input input {
+    /* width: ; */
+    height: 1.5rem;
+    width: 19rem;
+}
+
+.registration-input input[type=radio] {
+
+    height: 1rem;
+    width: 1rem;
+}
+
+.registration-input input[type=checkbox] {
+
+    height: 1rem;
+    width: 1rem;
+}
+
+.registration-input button {
+
+    height: 2rem;
+    /* width: 5rem; */
+    text-align: center !important;
+    font-size: 0.9rem;
+    padding-right: 0.5rem;
+}
+
+.registration {
+    margin: 1rem;
+}
+
+.card .date-time {
+    font-size: 0.5rem;
+    margin-bottom: 0.2rem;
+    font-weight: 600;
+}
+
+.card .post-user-img {
+    border-radius: 50% !important;
+    object-fit: cover;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.card .post-user-name {
+    font-size: 0.7rem;
+    padding-top: 0.7rem;
+}
+
+@media(max-width:1328px) {
+      .src-br {
+
+        left: 10rem;
+        height: 2rem;
+        width: 18rem;
+
+    }
+
+    .i-1 {
+        height: 1.7rem;
+        outline: none !important;
+    }
+
+    .i-2 {
+
+
+        height: 1.7rem;
+        width: 1.7rem;
+        right: 0;
+
+    }
+
+    .i-2 i {
+        color: rgb(249, 249, 255) !important;
+        position: absolute;
+        right: 0.2rem;
+        bottom: 0.2rem;
+    }
+
+}
+@media(max-width:900px) {
+    .src-br {
+
+        left: -0.9rem;
+    }
+}
+
+
+@media(max-width:546px) {
+    .logo-div {
+
+        margin-left: -1.1rem;
+       
+    }
+    .logo {
+
+        width: 6rem;
+    }
+    .tgl-btn {
+        position: relative;
+        
+        height: 1.5rem;
+        width: 1.9rem;
+        box-shadow: none !important;
+        bottom: 0.1rem;
+        right: 0rem;
+        color: black !important;
+    }
+    .navbar-toggler-icon {
+        position: absolute;
+        font-size: 0.9rem;
+
+        bottom: 0rem;
+        right: 0.2rem;
+
+    }
+    .nvbr {
+        font-size: 0.8rem;
+    }
+    .src-br {
+
+        left: -0.9rem;
+        height: 1.6rem;
+        width: 9rem;
+
+    }
+    .i-1 {
+        height: 1.4rem;
+        font-size: 0.6rem !important;
+    }
+
+    .i-2 {
+        position: absolute;
+        background: black !important;
+
+        height: 1.4rem;
+        width: 0.1rem;
+        right: 0;
+
+    }
+    .i-2 i {
+        color: rgb(249, 249, 255) !important;
+        position: absolute;
+        font-size: 0.7rem;
+        right: 0.4rem;
+        bottom: 0.3rem;
+    }
+    li {
+        padding: 0.1rem !important;
+
+    }
+
+    .category li {
+        list-style-type: none;
+        font-size: 0.8rem;
+      
+        padding-left: 0.5rem !important;
+    }
+    .all-post {
+        padding-right: 0.5;
+    }
+
+}
+@media(max-width:330px){
+    .logo {
+
+        width: 5rem;
+    }
+    .src-br {
+
+        left: -2.6rem;
+        height: 1.4rem;
+        width: 6rem;
+
+    }
+    .i-1 {
+        height: 1.2rem;
+        font-size: 0.6rem !important;
+    }
+
+    .i-2 {
+        position: absolute;
+        background: black !important;
+
+        height: 1.2rem;
+        width: 0.1rem;
+        right: 0;
+
+    }
+
+    .i-2 i {
+        color: rgb(249, 249, 255) !important;
+        position: absolute;
+        font-size: 0.7rem;
+        right: 0.4rem;
+        bottom: 0.2rem;
+    }
+    .tgl-btn {
+        position: fixed;
+        right: 1rem;
+        height: 1.3rem;
+        width: 1.5rem;
+        top: 1rem;
+
+    }
+
+    .navbar-toggler-icon {
+
+        font-size: 0.9rem;
+
+        bottom: -0.1rem;
+        right: 0.1rem;
+
+    }
+    .category li {
+        list-style-type: none;
+        font-size: 0.6rem;
+      
+        padding-left: 0.3rem !important;
+    }
+
+}
+@media(max-width:258px){
+    .category li {
+        list-style-type: none;
+        font-size: 0.5rem;
+      
+        padding-left: 0.3rem !important;
+    }
+
+}
+
+
+  /* ------------
+admin profile
+  --------- */
+  .profile img {
+    border-radius: 50%;
+    width: 4.2rem;
+    height: 5rem;
+    object-fit: cover;
+}
+.profile p {
+    font-family: "Nunito", sans-serif;
+    padding-bottom: 0.5rem;
+}
+.profile h5 {
+    font-size: 1rem;
+    color: #005E9B;
+    font-family: "Nunito", sans-serif;
+    /* align-self: center; */
+}
+.table-div {
+    /* border: 1px solid black; */
+    /* border-radius: 0.2rem; */
+    padding-bottom: 0.5rem !important;
+    overflow: hidden !important;
+    -webkit-box-shadow: 0px 1px 47px -30px rgba(247, 232, 247, 1);
+    -moz-box-shadow: 0px 1px 47px -30px rgba(247, 232, 247, 1);
+    box-shadow: 0px 1px 47px -30px rgba(247, 232, 247, 1);
+}
+.table-div h5 {
+    font-size: 0.9rem;
+    font-family: "Nunito", sans-serif;
+    color:#005E9B ;
+}
+.table td {
+    font-size: 0.8rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+}
+.edit-btn{
+    font-size: 0.8rem;
+    padding: 0.3rem 1rem;
+
+}
+@media(max-width:375px)
+            {
+                .table tr td {
+                    font-size: 0.6rem;
+                }
+                .table input{
+                    width: 4rem;
+                }
+                .table textarea {
+                    width: 4rem;
+                }
+
+            }
